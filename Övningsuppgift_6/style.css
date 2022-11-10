@@ -1,0 +1,142 @@
+.header{
+    background-color: grey;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.blue-boxone{
+    background-color: blue;
+    width: 400px;
+    height: 75px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.blue-boxtwo{
+    background-color: blue;
+    width: 400px;
+    height: 75px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-boxthree{
+    background-color: blue;
+    width: 400px;
+    height: 75px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pink-box{
+    background-color: magenta;
+    height: 50px;
+    width: 50px;
+}
+.main-content{
+    display: flex;
+}
+
+.Main-div{
+    background-color: grey;
+    width: 1600px;
+    height: 1140px;
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+.red-boxone{
+    background-color: red;
+    height: 1040px;
+    width: 700px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+
+   
+}
+
+.red-boxtwo{
+    background-color: red;
+    height: 550px;
+    width: 550px;
+    margin: 50px;
+    display: flex;
+    
+}
+
+.red-boxthree{
+    background-color: red;
+    height: 550px;
+    width: 550px;
+    margin: 50px;
+}
+
+.same-size{
+    display: flex;
+    flex-direction: column;
+}
+
+.longer-box{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lighblue-box{
+    width: 400px;
+    height: 100px;
+    margin: 50px 0 50px 0;
+    background-color: rgb(98, 158, 173);
+
+}
+
+.small-box{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.turqoise-box{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin: 50px 0 50px 0;
+}
+
+.yellow-one{
+
+}
+.yellow-two{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    
+}
+
+.yellow-square{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    margin: 20px;
+}
+
+
+.side-div{
+    background-color: grey;
+    width: 1000px;
+    height: 1140px;
+    margin: 10px;
+}
