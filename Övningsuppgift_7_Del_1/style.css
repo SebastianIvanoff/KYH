@@ -1,0 +1,152 @@
+body {
+  background: linear-gradient(black, red);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.content {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.contentTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+h1 {
+  color: white;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.userName {
+  margin: 5px;
+  border-radius: 2px;
+  border-style: hidden;
+  padding: 4px;
+}
+
+.password {
+  margin: 5px;
+  border-radius: 2px;
+  border-style: hidden;
+  padding: 4px;
+}
+
+.check {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login {
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  border-style: hidden;
+  padding: 4px;
+}
+.eller {
+  display: flex;
+  justify-content: center;
+}
+
+.optional {
+  display: flex;
+  flex-direction: column;
+  border-style: hidden;
+}
+
+.forgot {
+  color: white;
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+
+.google {
+  margin: 5px;
+  border-radius: 2px;
+  border-style: hidden;
+  padding: 4px;
+}
+
+.facebook {
+  margin: 5px;
+  background-color: rgb(96, 164, 252);
+  border-radius: 2px;
+  border-style: hidden;
+  padding: 4px;
+}
+
+.or{
+ font-size: 1rem;
+}
+
+span {
+  color: white;
+    font-size: 0.6rem;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  background-color: grey;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 800px) {
+  body {
+    background: lightgray;
+    
+  }
+  .contentTwo{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login{
+    background-color: orangered;
+  }
+
+.userName{
+    padding: 10px;
+}
+
+.password{
+    padding: 10px;
+}
+.login{
+    padding: 10px;
+}
+
+.or{
+    font-size: 2rem;
+}
+
+.google{
+    padding: 10px;
+}
+.facebook{
+     padding:10px;
+}
+  .footer{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+}
