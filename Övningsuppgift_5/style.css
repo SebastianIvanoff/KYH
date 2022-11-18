@@ -61,6 +61,7 @@ article {
 .recept{
     border: 1px solid black;
     display: flex;
+    padding: 10px;
     
 }
 
